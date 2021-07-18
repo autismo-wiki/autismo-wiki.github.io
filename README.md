@@ -1,7 +1,7 @@
 # Inicio
 Wikipedia del TEA
 <div class="git-wiki-page-list">
-    <span class="page-list-title">Paginas:</span>
+    ## Paginas:
     <ul class="page-list">
         {% assign items = site.html_pages | sort: 'date' %} {% for page in items %}
         {% if page.is_wiki_page != false and page.sitemap != false %}
